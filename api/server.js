@@ -16,7 +16,7 @@ server.use("/messages", restrict, MessagesRouter);
 server.use("/projects", restrict, ProjectsRouter);
 
 server.get("/", (req, res) => {
-  res.send("Is this thing on?");
+  res.send("Hello World!");
 });
 
 module.exports = server;
