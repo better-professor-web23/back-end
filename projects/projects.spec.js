@@ -12,10 +12,10 @@ describe("projects", () => {
 
     expect(res.body[1]).toEqual({
       "project id": 5,
-      project_name: "Jumping the Gun",
-      deadline: "12/11/2019",
+      project_name: "Test Project2",
+      deadline: "12/11/3500",
       deadline_type: "Feedback",
-      description: "Start too early before preparations are ready"
+      description: "TestDescripton2"
     });
   });
 
