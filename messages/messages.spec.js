@@ -11,7 +11,7 @@ describe("messages", () => {
     expect(res.status).toBe(200);
 
     expect(res.body[1]).toEqual({
-      message: "A glittering gem is not enough.",
+      message: "Yo.",
       date: "1/21/2020",
       student_id: 1
     });
@@ -21,7 +21,7 @@ describe("messages", () => {
     const res = await request(server)
       .post("/messages")
       .send({
-        message: "A glittering gem is not enough.",
+        message: "Yo.",
         date: "1/21/2020",
         student_id: 1
       });
